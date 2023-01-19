@@ -1,0 +1,124 @@
+body {
+    font-family: Arial;
+    color: white;
+    margin: 0;
+}
+
+#bg {
+    position: fixed; 
+    top: 0; 
+    left: 0; 
+    width: 100%;
+    min-height: 100vh;
+    z-index: -1;
+}
+
+#transparentBlueBackground {
+    position: fixed; 
+    top: 0; 
+    left: 0; 
+    width: 100%;
+    min-height: 100vh;
+    z-index: -1;
+    background-color: rgba(0,76,164,0.83);
+}
+
+.navbarLogoDiv {
+    width: 80%;
+}
+
+.indexMainText{
+    margin-top: 25vh;
+}
+
+.indexDeviceImg {
+    margin-top: 15vh;
+}
+
+.deviceImgBackground {
+    background-color: rgba(79,220,187,0.83);
+    border-radius: 100%;
+    width: 430px;
+    height: 430px;
+    padding: 20px;
+}
+
+.lightGreenBackColor {
+    background-color: rgba(79,220,187,1);
+}
+
+.aboutusBtn {
+    border-radius: 20px;
+}
+
+.aboutusBtn:hover {
+    background-color: rgba(0,187,192,1);
+}
+
+.personWithLaptop {
+    height: 300px;
+    border-radius: 30px;
+}
+
+.aboutUsContainer {
+    padding: 30px;
+    border-radius: 30px;
+    font-size: 20px;
+}
+
+.teambackground {
+    background-color: white;
+    height: 300px;
+    width: 300px;
+    border-radius: 100%;
+    border-color: rgba(0,187,192,1);
+    border-style: solid;
+    border-width: 20px;
+    margin-left: 50px;
+}
+
+.personIcon {
+    height: 200px;
+    margin-top: 20px;
+}
+
+.teamPersonDiv {
+    height: 400px;
+}
+
+.servicesHeader {
+    margin-top: 50px;
+}
+
+.serviceContainer {
+    border-radius: 30px;
+    border-color: rgba(0,187,192,1);
+    border-style: solid;
+    border-width: 3px;
+}
+
+.serviceImgContainer {
+    background-color: rgba(0,187,192,1);
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    padding-top: 10px;
+}
+
+.serviceImg {
+    height: 40px;
+    
+}
+
+.contactEmailBorders {
+    border-right: rgba(0,187,192,1);
+    border-left: rgba(0,187,192,1);
+    border-width: 1px;
+    border-top: 0;
+    border-bottom: 0;
+    border-style: solid;
+}
+
+.contactInput {
+    border-radius: 11px;
+}
